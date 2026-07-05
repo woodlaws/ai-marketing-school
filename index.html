@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 마케팅 스쿨 3개월 풀 패키지 멤버십</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============================== NAVBAR ============================== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">🤖 AI <span>마케팅 스쿨</span></div>
+    <ul class="nav-links">
+      <li><a href="#target">수강 대상</a></li>
+      <li><a href="#curriculum">커리큘럼</a></li>
+      <li><a href="#instructor">강사 소개</a></li>
+      <li><a href="#features">특장점</a></li>
+      <li><a href="#bonus">보너스</a></li>
+      <li><a href="#pricing">수강료</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfgve1kf7GsMZvTV6Txyqp1nnFdZSgBV5W4bQDrj-a9WkbZcg/viewform" target="_blank" class="nav-cta">지금 신청하기</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#target">수강 대상</a>
+    <a href="#curriculum">커리큘럼</a>
+    <a href="#instructor">강사 소개</a>
+    <a href="#features">특장점</a>
+    <a href="#bonus">보너스</a>
+    <a href="#pricing">수강료</a>
+    <a href="#faq">FAQ</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgve1kf7GsMZvTV6Txyqp1nnFdZSgBV5W4bQDrj-a9WkbZcg/viewform" target="_blank" style="color:#38BDF8;font-weight:700;">🎯 지금 신청하기</a>
+  </div>
+</nav>
+
+<!-- ============================== HERO ============================== -->
+<section id="hero">
+  <div class="hero-blob1"></div>
+  <div class="hero-blob2"></div>
+  <div class="hero-inner">
+    <!-- 메인 헤드라인 -->
+    <h1 class="hero-title">
+      AI로 생산성, 수익화, 자동화
+      <span class="line2">그리고 업무시스템까지</span>
+    </h1>
+    <!-- 서브 설명 -->
+    <p class="hero-sub">
+      <strong>아이디어만 있으면 됩니다. 나머지는 AI가 만들어 줍니다.</strong><br />
+      12주 완성 커리큘럼으로<br />
+      AI 업무 시스템을 완전히 내 것으로 만드세요.
+    </p>
+    <!-- 통계 카운터 -->
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span>15</span>기</div>
+        <div class="hero-stat-label">누적수강생</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span>12</span>주</div>
+        <div class="hero-stat-label">완성 과정</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span>50</span>+</div>
+        <div class="hero-stat-label">실습 프로젝트</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num"><span>300</span>+</div>
+        <div class="hero-stat-label">프롬프트 라이브러리</div>
+      </div>
+    </div>
+    <!-- CTA 버튼 -->
+    <div class="hero-buttons">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgve1kf7GsMZvTV6Txyqp1nnFdZSgBV5W4bQDrj-a9WkbZcg/viewform" target="_blank" class="btn-primary">
+        <i class="fa-solid fa-bolt"></i> 지금 신청하기
+      </a>
+      <a href="#curriculum" class="btn-secondary">
+        <i class="fa-solid fa-book-open"></i> 커리큘럼 보기
+      </a>
+    </div>
+    <!-- 강의 일정 -->
+    <div class="hero-info-bar">
+      <div class="hero-info-item"><i class="fa-solid fa-calendar-days"></i> 2026년 7월 8일 ~ 12주간</div>
+      <div class="hero-info-item"><i class="fa-solid fa-clock"></i> 매주 목 저녁 8시~11시</div>
+      <div class="hero-info-item"><i class="fa-brands fa-youtube"></i> 줌 라이브 진행</div>
+      <div class="hero-info-item"><i class="fa-solid fa-users"></i> AI 초보~중급자 환영</div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>스크롤</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- ============================== AI TOOLS ============================== -->
+<section id="ai-tools">
+  <!-- 텍스트 헤더 -->
+  <div class="ai-tools-inner">
+    <div class="reveal">
+      <h2 style="font-size:clamp(1.7rem, 4.2vw, 2.8rem); font-weight:900; color:var(--blue-dark); letter-spacing:-1px; line-height:1.22; margin-bottom:16px;">강의에서 다루는 AI 도구 🛠️</h2>
+      <p class="section-desc">업무 생산성부터 협업, SNS 마케팅 콘텐츠 제작까지<br />가성비 좋은 AI를 직접 연구하고 실전 교육으로 전달합니다.</p>
+    </div>
+  </div>
+  <div class="unified-img-section" style="padding-bottom:40px;">
+    <div class="unified-img-wrap reveal">
+      <img src="images/ai-tools-new.png" alt="거상스쿨 pick AI 솔루션 모음" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- ============================== TARGET ============================== -->
+<section class="section" id="target">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">수강 대상</div>
+      <h2 class="section-title">이런 분께 딱 맞습니다 ✅</h2>
+      <p class="section-desc nowrap">AI를 실전에서 바로 써먹고 싶은 분이라면 누구든 환영합니다.</p>
+    </div>
+    <div class="target-grid">
+      <div class="target-card reveal reveal-delay-1">
+        <div class="target-icon">🤖</div>
+        <h3>AI 초보~중급자</h3>
+        <p>AI 도구를 처음 시작하거나, 기초는 알지만 제대로 활용하지 못하고 있는 분</p>
+      </div>
+      <div class="target-card reveal reveal-delay-2">
+        <div class="target-icon">📣</div>
+        <h3>마케팅 입문자</h3>
+        <p>SNS 마케팅을 시작하고 싶지만 어디서 어떻게 시작해야 할지 모르는 분</p>
+      </div>
+      <div class="target-card reveal reveal-delay-3">
+        <div class="target-icon">💼</div>
+        <h3>N잡러</h3>
+        <p>본업 외에 AI·콘텐츠 기반의 부수입 채널을 만들고 싶은 직장인</p>
+      </div>
+      <div class="target-card reveal reveal-delay-4">
+        <div class="target-icon">🏢</div>
+        <h3>1인 기업·사업자</h3>
+        <p>혼자서도 마케팅·업무·콘텐츠 제작을 AI로 효율화하고 싶은 대표님</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CURRICULUM ============================== -->
+<section class="section section-alt" id="curriculum">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">커리큘럼</div>
+      <h2 class="section-title">3개월 완전 정복 로드맵 🗺️</h2>
+      <p class="section-desc nowrap">기초부터 실전 수익화, 자동화·시스템화까지 체계적으로 완성합니다.</p>
+    </div>
+  </div>
+
+  <!-- 로드맵 이미지 -->
+  <div class="unified-img-section" style="padding-bottom:40px;">
+    <div class="unified-img-wrap reveal">
+      <img src="images/roadmap-v2.jpg" alt="12주만에 AI 마스터하기 로드맵" loading="lazy" />
+    </div>
+  </div>
+
+  <!-- 커리큘럼 다운로드 배너 -->
+  <div class="unified-img-section" style="padding: 0 0 48px;">
+    <div class="unified-img-wrap reveal">
+      <a href="https://drive.google.com/file/d/1rpPl8GGTXZyuO_g5SrQBnmQP_abmLqiw/view"
+         target="_blank"
+         style="
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           background: linear-gradient(135deg, #0A2463 0%, #1E40AF 60%, #1d4ed8 100%);
+           border-radius: 16px;
+           padding: 32px 48px;
+           text-decoration: none;
+           box-shadow: 0 8px 40px rgba(10,36,99,0.22);
+           transition: transform 0.2s, box-shadow 0.2s;
+           gap: 20px;
+         "
+         onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 14px 50px rgba(10,36,99,0.32)'"
+         onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 8px 40px rgba(10,36,99,0.22)'"
+      >
+        <div style="display:flex; align-items:center; gap:20px;">
+          <div style="
+            width:56px; height:56px; flex-shrink:0;
+            background: rgba(255,255,255,0.15);
+            border-radius: 14px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.6rem;
+          ">📄</div>
+          <div>
+            <div style="font-size:0.82rem; font-weight:600; color:rgba(255,255,255,0.65); letter-spacing:1px; text-transform:uppercase; margin-bottom:6px;">FREE DOWNLOAD</div>
+            <div style="font-size:clamp(1.2rem,2.5vw,1.7rem); font-weight:900; color:#fff; letter-spacing:-0.5px; line-height:1.2;">커리큘럼 다운받기</div>
+            <div style="font-size:0.88rem; color:rgba(255,255,255,0.7); margin-top:6px;">전체 12주 커리큘럼 상세 내용을 PDF로 확인하세요</div>
+          </div>
+        </div>
+        <div style="
+          display: flex; align-items: center; gap: 10px;
+          background: linear-gradient(135deg, #F59E0B, #FBBF24);
+          color: #0A2463;
+          font-size: 0.95rem;
+          font-weight: 800;
+          padding: 14px 28px;
+          border-radius: 50px;
+          white-space: nowrap;
+          flex-shrink: 0;
+          box-shadow: 0 4px 20px rgba(245,158,11,0.4);
+        ">
+          <i class="fa-solid fa-download"></i> 다운로드
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- ── 1개월차 ── -->
+    <div class="curr-month-block">
+      <div class="curr-month-header reveal">
+        <div class="curr-month-label">
+          <span class="month-num">1</span>
+          <i class="fa-solid fa-chart-line"></i>
+          1개월차 &nbsp;·&nbsp; AI 기반 업무 생산성 10배 늘리기 &lt;기본기와 응용과정&gt;
+        </div>
+      </div>
+      <div class="weeks-grid">
+        <div class="week-card reveal reveal-delay-1">
+          <div class="week-card-img">
+            <img src="images/week1-notion.jpg" alt="1주차 노션 마스터하기" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">1주차</span>
+            <h3>업무 생산성의 끝판왕 노션 마스터하기 &lt;실습&gt;</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Notion AI</span>
+            </div>
+            <ul class="week-points">
+              <li>핵심 구조 이해 : 페이지, 블록으로 모든 것을 만든다</li>
+              <li>데이터베이스 마스터 — CRM, 콘텐츠 스케줄표</li>
+              <li>커뮤니케이션, 문서, 파일 관리 시스템 구축</li>
+              <li>프로젝트·일정 관리 시스템 대시보드 만들기</li>
+              <li>회사 KPI 대시보드, 나만의 통합 마케팅 대시보드 구축</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-2">
+          <div class="week-card-img">
+            <img src="images/week2-gemini.jpg" alt="2주차 Gemini와 구글 생태계 마스터" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">2주차</span>
+            <h3>Gemini와 구글 생태계 마스터</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Gemini</span>
+              <span class="tool-tag">Google AI</span>
+              <span class="tool-tag">Google Drive</span>
+            </div>
+            <ul class="week-points">
+              <li>Gemini 프롬프트 작성 공식과 구글 AI 생태계의 이해</li>
+              <li>Deep Research, Canvas, NotebookLM 실전 적용하기</li>
+              <li>Nano banana, Veo3.1, Lyria 3 멀티모달 콘텐츠 생성 실습</li>
+              <li>반복 업무 Gems 만들어서 자동화하기 (예, 쇼츠 대본 생성기)</li>
+              <li>구글 드라이브로 클라우드 업무시스템 실전 세팅 (feat. Gemini)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-3">
+          <div class="week-card-img">
+            <img src="images/week3-chatgpt.jpg" alt="3주차 ChatGPT 마스터하기" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">3주차</span>
+            <h3>ChatGPT 마스터하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">ChatGPT</span>
+            </div>
+            <ul class="week-points">
+              <li>ChatGPT 전반의 기능 습득하며 프롬프트 엔지니어링 마스터</li>
+              <li>컨텍스트 엔지니어링의 이해와 지침에 적용하여 나의 분신으로 만들기</li>
+              <li>반복 업무 프로젝트 만들어서 자동화하기 (고객 상담, 카드뉴스 만들기 등)</li>
+              <li>홈페이지·회사소개서·사업계획서·랜딩페이지 4대 사업 필수품 제작에 응용하기</li>
+              <li>Deep Research로 5대 SNS 최신 알고리즘 조사 (유튜브, 틱톡, 인스타, 블로그, 스레드)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-4">
+          <div class="week-card-img">
+            <img src="images/week4-claude.jpg" alt="4주차 Claude 마스터하기" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">4주차</span>
+            <h3>Claude 마스터하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Claude</span>
+            </div>
+            <ul class="week-points">
+              <li>Claude 기본 기능의 이해와 인라인 시각화 실습</li>
+              <li>프로젝트로 블로그 글쓰기 봇, 상세페이지 기획 봇 만들기</li>
+              <li>Claude 커넥터·플러그인 세팅하고 나만의 스킬 만들기 실습</li>
+              <li>사업자들을 위한 각종 문서 스킬 만들기 (제안서, 견적서, 매뉴얼, 회의록 등)</li>
+              <li>노션·구글 드라이브 커넥터 연결로 작업 결과 자동으로 정리하기</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 1개월차 로드맵 이미지 -->
+    <div class="curr-month-img reveal">
+      <img src="images/month1-roadmap-new.jpg" alt="AI 마케팅 스쿨 1개월차 업무 생산성 10배 늘리기 로드맵" loading="lazy" />
+    </div>
+
+    <!-- ── 2개월차 ── -->
+    <div class="curr-month-block">
+      <div class="curr-month-header reveal">
+        <div class="curr-month-label" style="background: linear-gradient(135deg,#065f46,#059669);">
+          <span class="month-num">2</span>
+          <i class="fa-solid fa-bullhorn"></i>
+          2개월차 &nbsp;·&nbsp; AI 기반 실전 SNS 마케팅으로 돈 벌기 &lt;실전 적용&gt;
+        </div>
+      </div>
+      <div class="weeks-grid">
+        <div class="week-card reveal reveal-delay-1">
+          <div class="week-card-img">
+            <img src="images/week5-blog.jpg" alt="5주차 스레드 마케팅과 블로그 마케팅" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">5주차</span>
+            <h3>AI를 활용한 스레드 마케팅과 블로그 마케팅</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Claude</span>
+              <span class="tool-tag">ChatGPT Images 2.0</span>
+              <span class="tool-tag">Nano Banana 2</span>
+            </div>
+            <ul class="week-points">
+              <li>AI로 수익 나는 주제·키워드 조사하고 벤치마킹하기</li>
+              <li>네이버 블로그·티스토리·인블로그 기본기 마스터하기</li>
+              <li>AI 검색 시대 AEO·GEO의 이해와 글쓰기 패턴 다지기</li>
+              <li>30일 콘텐츠 스케줄표 만들고 Claude로 블로그·스레드 글 발행하기</li>
+              <li>ChatGPT Images 2.0으로 실사사진·인포그래픽 등 만들어 넣기</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-2">
+          <div class="week-card-img">
+            <img src="images/week6-image.jpg" alt="6주차 AI로 이미지 만들기 마스터하기" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">6주차</span>
+            <h3>AI로 이미지 만들기 마스터하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">ChatGPT Images 2.0</span>
+              <span class="tool-tag">Nano Banana 2</span>
+            </div>
+            <ul class="week-points">
+              <li>ChatGPT Images로 만들 수 있는 이미지 파악하기</li>
+              <li>인포그래픽 이미지 생성과 실전 카드뉴스 만들기</li>
+              <li>실사 사진 생성과 캐릭터 시트·무드보드 만들어서 나만의 모델로 쓰기</li>
+              <li>상세페이지 기획 15 요소에 맞춰 실전 상세페이지 만들기</li>
+              <li>Image to Video를 위한 내가 원하는 이미지 만들기</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-3">
+          <div class="week-card-img">
+            <img src="images/week7-flow.jpg" alt="7주차 AI 동영상 마스터하기" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">7주차</span>
+            <h3>AI 동영상 마스터하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Google Flow</span>
+            </div>
+            <ul class="week-points">
+              <li>Flow 기본 워크플로우 &amp; 인터페이스 마스터하기</li>
+              <li>Veo 3.1 연동 텍스트·이미지 투 비디오 생성</li>
+              <li>씬 빌더(Scene Builder)로 일관된 캐릭터·스토리 연출</li>
+              <li>클립 확장·편집 (Extend, Camera Control 등) 실전 적용</li>
+              <li>Flow → 유튜브/릴스 발행 파이프라인 구축하기</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-4">
+          <div class="week-card-img">
+            <img src="images/week8-shortform.jpg" alt="8주차 숏폼 & 유튜브 마케팅" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">8주차</span>
+            <h3>AI를 활용한 숏폼 &amp; 유튜브 마케팅 (릴스·틱톡·쇼츠·유튜브)</h3>
+            <div class="week-tools">
+              <span class="tool-tag">ChatGPT</span>
+              <span class="tool-tag">Claude</span>
+              <span class="tool-tag">Flow</span>
+            </div>
+            <ul class="week-points">
+              <li>채널별 숏폼 알고리즘 &amp; 3초 훅 설계 (릴스·틱톡·쇼츠)</li>
+              <li>ChatGPT로 숏폼 대본·후킹 카피 대량 생성 (AI 동물 쇼츠 등)</li>
+              <li>Claude로 유튜브 롱폼 기획·커리큘럼형 스크립트 제작</li>
+              <li>Flow로 숏폼 영상 직접 생성·편집</li>
+              <li>1개 콘텐츠 → 10개 콘텐츠 확장 &amp; 채널별 재배포 전략</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2개월차 로드맵 이미지 -->
+    <div class="curr-month-img reveal">
+      <img src="images/month2-roadmap-new.jpg" alt="AI 실전 마케팅 2개월차 수익 창출로 이어지는 AI 콘텐츠 제작 가이드" loading="lazy" />
+    </div>
+
+    <!-- ── 3개월차 ── -->
+    <div class="curr-month-block">
+      <div class="curr-month-header reveal">
+        <div class="curr-month-label" style="background: linear-gradient(135deg,#6b21a8,#9333ea);">
+          <span class="month-num">3</span>
+          <i class="fa-solid fa-gears"></i>
+          3개월차 &nbsp;·&nbsp; AI 기반 업무자동화·시스템화 실전 &lt;고급 응용&gt;
+        </div>
+      </div>
+      <div class="weeks-grid">
+        <div class="week-card reveal reveal-delay-1">
+          <div class="week-card-img">
+            <img src="images/week9-codex.jpg" alt="9주차 ChatGPT Codex 마스터하기" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">9주차</span>
+            <h3>ChatGPT Codex 마스터하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Codex</span>
+            </div>
+            <ul class="week-points">
+              <li>Codex = "말로 시키는 마케팅 자동화 비서" 개념 잡기</li>
+              <li>키워드 순위·블로그 노출 데이터 자동 수집·정리 시키기</li>
+              <li>경쟁사 블로그/플레이스 모니터링 자동화 요청하기</li>
+              <li>광고비·전환율 데이터 자동 정리 &amp; 보고서 초안 요청</li>
+              <li>랜딩페이지 실전 기획하기 — 퍼널 구조로 설계 요청</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-2">
+          <div class="week-card-img">
+            <img src="images/week10-cowork1.jpg" alt="10주차 Claude Cowork 마스터하기 1" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">10주차</span>
+            <h3>Claude Cowork로 AI 직원과 함께 일하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Claude Cowork 기본</span>
+            </div>
+            <ul class="week-points">
+              <li>Cowork 기본 구조 &amp; 커넥터 (Drive·Gmail·Notion) 연결하기</li>
+              <li>클라이언트 월간 리포트 자동 생성 시키기</li>
+              <li>견적서 + 제안서 + 후속 이메일 한 번에 연결 자동화</li>
+              <li>블로그 성과 데이터 → 분석 → 인사이트 보고서 받기</li>
+              <li>뭘 자동화하고 뭘 직접 할지 — ROI 기준으로 골라보기</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-3">
+          <div class="week-card-img">
+            <img src="images/week11-cowork2.jpg" alt="11주차 Claude Cowork 마스터하기 2" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">11주차</span>
+            <h3>Claude Cowork로 마케팅 자동화 업무 숙달하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Claude Cowork 심화</span>
+            </div>
+            <ul class="week-points">
+              <li>Notion 연동 — 수강생/리드 명단 한 번에 정리·업데이트하기</li>
+              <li>블로그 1개 → 스레드·숏폼 소재까지 자동 확장 요청하기</li>
+              <li>캘린더 연동 — 특강·런칭 일정 자동 알림 만들기</li>
+              <li>고객 문의·예약 응대 초안 자동으로 받기</li>
+              <li>AI가 만든 결과, 보내기 전에 뭘 꼭 확인해야 하나</li>
+            </ul>
+          </div>
+        </div>
+        <div class="week-card reveal reveal-delay-4">
+          <div class="week-card-img">
+            <img src="images/week12-vibecoding.jpg" alt="12주차 바이브코딩 실전 랜딩페이지 제작 배포" loading="lazy" />
+          </div>
+          <div class="week-card-body">
+            <span class="week-num">12주차</span>
+            <h3>바이브코딩 실전 : 실전 랜딩페이지 제작 배포하기</h3>
+            <div class="week-tools">
+              <span class="tool-tag">Codex</span>
+              <span class="tool-tag">Claude Code</span>
+              <span class="tool-tag">GitHub</span>
+              <span class="tool-tag">Vercel</span>
+            </div>
+            <ul class="week-points">
+              <li>9주차에서 기획한 랜딩페이지, Codex에게 "만들어줘" 시키기</li>
+              <li>GitHub에 내 작업 저장하기 — "저장만 누를 줄 알면 끝"</li>
+              <li>Vercel로 원클릭 배포 — 실제 URL로 띄워보기</li>
+              <li>신청 폼 제출 시 카카오톡/이메일 자동 알림 연결하기</li>
+              <li>내 랜딩페이지 발표하고 서로 피드백하기</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 3개월차 그래프 이미지 -->
+    <div class="curr-month-img reveal">
+      <img src="images/month3-roadmap-new.jpg" alt="AI 기반 업무 자동화 & 웹 서비스 구축 3개월차 고급 응용 과정" loading="lazy" />
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================== RESULT INTRO ============================== -->
+<section class="section section-alt" style="padding-bottom: 0;">
+  <div class="container">
+    <div class="section-header reveal" style="margin-bottom:40px;">
+      <div class="section-label">수강 효과</div>
+      <h2 class="section-title">3개월 후 어떤 변화가 있을까?</h2>
+      <p class="section-desc nowrap">일하는 방식, 수익 구조, 업무 시스템. <strong style="color:#1E40AF;">세 가지가 동시에 바뀝니다.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== RESULT GRAPH ============================== -->
+<section class="unified-img-section bg-gray">
+  <div class="unified-img-wrap reveal">
+    <img src="images/result-graph-new.jpg" alt="딱 12주 뒤 우리의 변화 — AI와 함께 업무 시스템을 갖추고 콘텐츠와 수익이 함께 성장합니다" loading="lazy" />
+  </div>
+</section>
+
+<!-- ============================== INSTRUCTOR ============================== -->
+<section class="section" id="instructor">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">강사 소개</div>
+      <h2 class="section-title">누가 가르치나요? 👨‍🏫</h2>
+      <p class="section-desc nowrap">10년 이상 현장에서 검증된 실전형 AI 마케팅 전문가가 직접 진행합니다.</p>
+    </div>
+
+    <div class="instructor-wrap reveal">
+      <!-- 왼쪽: 사진 + 이름 -->
+      <div class="instructor-photo-col">
+        <div class="instructor-photo-frame">
+          <img src="images/instructor-photo.jpg" alt="거상스쿨 강사 프로필 사진" />
+        </div>
+        <div class="instructor-name-badge">
+          <strong>거상스쿨 대표 강사</strong>
+          <span>거상스쿨 / 거상마케팅센터 운영</span>
+        </div>
+      </div>
+
+      <!-- 오른쪽: 소개 내용 -->
+      <div class="instructor-info-col">
+        <h3 class="instructor-headline">
+          <em>AI로 돈 버는 구조</em>를<br />설계하고 실행하는<br />실전형 마케팅 전문가
+        </h3>
+        <p class="instructor-tagline">📚 마케팅 분야 베스트셀러 7권 저자 · 큐레이션 2권 감수 · 13년간 현장 교육 경력</p>
+
+        <div class="instructor-specs">
+          <div class="instructor-spec-item">
+            <div class="spec-label">🏢 운영</div>
+            <div class="spec-value">거상스쿨 / 거상마케팅센터</div>
+          </div>
+          <div class="instructor-spec-item">
+            <div class="spec-label">🎯 전문 분야</div>
+            <div class="spec-value">AI 마케팅 · 콘텐츠 수익화<br />랜딩페이지 · GEO · AEO</div>
+          </div>
+          <div class="instructor-spec-item">
+            <div class="spec-label">🎓 강의 방식</div>
+            <div class="spec-value">실습 중심 · 결과물 중심<br />사업 적용 중심</div>
+          </div>
+          <div class="instructor-spec-item">
+            <div class="spec-label">📖 저서</div>
+            <div class="spec-value">베스트셀러 7권 저자<br />큐레이션 2권 감수</div>
+          </div>
+        </div>
+
+        <div class="instructor-message">
+          AI는 도구가 아니라 <strong>비즈니스 시스템</strong>입니다.<br />
+          콘텐츠를 만들고, 리드를 모으고, 판매까지 연결되는<br />
+          <strong>AI 기반 수익 구조</strong>를 함께 설계하고 실행합니다.
+        </div>
+
+        <!-- 저서 이미지 -->
+        <div class="instructor-books reveal">
+          <div class="instructor-books-label">📚 13년간 집필한 책과 감수한 책</div>
+          <div class="instructor-books-img">
+            <img src="images/instructor-books-v2.jpg" alt="거상스쿨 강사 저서 모음 — 13년간 집필한 책과 감수한 책" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FEATURES ============================== -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">특장점</div>
+      <h2 class="section-title">왜 이 과정인가요? 💡</h2>
+      <p class="section-desc nowrap">10년 이상의 실전 경험이 담긴 노하우를 단 3개월에 모두 전수합니다.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon blue"><i class="fa-brands fa-openai"></i></div>
+        <div class="feature-text">
+          <h3>ChatGPT 완전 마스터</h3>
+          <p>모든 기능 완전 활용부터 나만의 챗봇 제작까지, ChatGPT를 100% 내 것으로 만듭니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon sky"><i class="fa-brands fa-google"></i></div>
+        <div class="feature-text">
+          <h3>Gemini 마스터</h3>
+          <p>기본 활용부터 실전 업무 자동화까지, 구글 AI 생태계를 완전히 장악합니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-3">
+        <div class="feature-icon purple"><i class="fa-solid fa-n"></i></div>
+        <div class="feature-text">
+          <h3>Notion 마스터</h3>
+          <p>업무·문서·일정을 하나로 통합하는 나만의 디지털 본사를 구축합니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-4">
+        <div class="feature-icon green"><i class="fa-brands fa-google-drive"></i></div>
+        <div class="feature-text">
+          <h3>구글 워크스페이스 마스터</h3>
+          <p>팀 협업·문서 자동화·AI 연동으로 업무 속도를 3배 올립니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon" style="background:#fce7f3; color:#db2777;"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        <div class="feature-text">
+          <h3>바이브코딩</h3>
+          <p>아이디어만 있으면 됩니다. Lovable과 Genspark으로 내가 원하는 앱을 직접 만듭니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon gold"><i class="fa-solid fa-hashtag"></i></div>
+        <div class="feature-text">
+          <h3>SNS 5채널 마스터</h3>
+          <p>블로그·인스타·유튜브·틱톡·스레드까지 전 채널 AI 마케팅 전략을 완성합니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-3">
+        <div class="feature-icon red"><i class="fa-solid fa-medal"></i></div>
+        <div class="feature-text">
+          <h3>10년+ 실전 SNS 마케팅 전문가</h3>
+          <p>10년 이상 SNS 마케팅 실전 교육을 진행한 검증된 전문가의 노하우를 모두 공개합니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-4">
+        <div class="feature-icon teal"><i class="fa-solid fa-building"></i></div>
+        <div class="feature-text">
+          <h3>마케팅 대행사 운영 실전 경험</h3>
+          <p>현직 마케팅 대행사 운영을 통해 쌓은 생생한 실전 경험이 고스란히 담겨 있습니다.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon pink"><i class="fa-solid fa-book"></i></div>
+        <div class="feature-text">
+          <h3>마케팅 분야 베스트셀러 작가</h3>
+          <p>검증된 마케팅 베스트셀러 저자가 직접 강의하는 체계적이고 깊이 있는 커리큘럼입니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== BONUS ============================== -->
+<section class="section" id="bonus">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">특별 보너스</div>
+      <h2 class="section-title">🎁 수강생 전용 특별 선물</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,0.75);">수강 신청하면 이 모든 것을 무료로 드립니다.</p>
+    </div>
+    <div class="bonus-grid">
+      <div class="bonus-card reveal reveal-delay-1">
+        <div class="bonus-num">1</div>
+        <h3>수강생 전용 Notion 템플릿</h3>
+        <p>강의에서 배운 내용을 바로 적용할 수 있는 완성형 Notion 템플릿을 수강생에게만 공유합니다.</p>
+        <span class="bonus-tag">🎁 전용 공유</span>
+      </div>
+      <div class="bonus-card reveal reveal-delay-2">
+        <div class="bonus-num">2</div>
+        <h3>사업자 업무 서식 모음집</h3>
+        <p>제안서, 견적서, 계약서, 보고서 등 사업자가 자주 쓰는 각종 업무 서식을 총망라한 모음집을 제공합니다.</p>
+        <span class="bonus-tag">📄 즉시 사용 가능</span>
+      </div>
+      <div class="bonus-card reveal reveal-delay-3">
+        <div class="bonus-num">3</div>
+        <h3>실전 CapCut 마스터 (3시간 VOD)</h3>
+        <p>각 플랫폼별(인스타·블로그·유튜브·틱톡·스레드) 2026 최신 알고리즘 리포트 및 떡상 법칙 자료까지 제공합니다.</p>
+        <span class="bonus-tag">🎬 3시간 VOD 포함</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PRICING ============================== -->
+<section class="section section-alt" id="pricing">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">수강료</div>
+      <h2 class="section-title">지금이 가장 저렴할 때입니다 💰</h2>
+      <p class="section-desc">얼리버드 기간이 끝나기 전에 지금 바로 등록하세요.</p>
+    </div>
+    <div class="pricing-wrapper">
+      <div class="pricing-cards">
+        <!-- Super Early Bird -->
+        <div class="price-card featured reveal">
+          <div class="price-badge-top">🔥 BEST · 슈퍼 얼리버드</div>
+          <div class="price-label">슈퍼 얼리버드 (7월 1일 오전 12시까지)</div>
+          <div class="price-amount">
+            <span class="price-main">560,000원</span>
+            <span class="price-original">990,000원</span>
+          </div>
+          <div class="price-note">정규가 대비 43% 할인 · 430,000원 절약!</div>
+          <div class="price-deadline"><i class="fa-solid fa-fire"></i> 7월 1일 오전 12시 마감</div>
+        </div>
+
+        <!-- Regular Price -->
+        <div class="price-card reveal">
+          <div class="price-label">정규가</div>
+          <div class="price-amount">
+            <span class="price-main">600,000원</span>
+            <span class="price-original">990,000원</span>
+          </div>
+          <div class="price-note">정규가 대비 39% 할인</div>
+        </div>
+      </div>
+
+      <div class="pricing-right">
+        <div class="payment-box reveal">
+          <h3><i class="fa-solid fa-credit-card"></i> 결제 방법</h3>
+          <div class="payment-item">
+            <i class="fa-solid fa-building-columns"></i>
+            <div>
+              <strong>계좌 이체</strong><br />
+              기업은행 667-045456-04-010<br />
+              예금주: 거상스쿨(주)
+            </div>
+          </div>
+          <div class="payment-item">
+            <i class="fa-solid fa-credit-card"></i>
+            <div>
+              <strong>카드 결제</strong><br />
+              카드 결제도 가능합니다
+            </div>
+          </div>
+        </div>
+        <div class="contact-box reveal">
+          <h3><i class="fa-solid fa-phone"></i> 문의 및 상담</h3>
+          <div class="contact-tel">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:01057958075" style="color:inherit;">010-5795-8075</a>
+          </div>
+          <div class="contact-name">권현임 교육팀장님께 문의해 주세요</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FAQ ============================== -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center;">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title">자주 묻는 질문 ❓</h2>
+      <p class="section-desc" style="margin: 0 auto;">궁금한 점은 여기서 먼저 확인해 보세요.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-q" data-faq="0">
+          <span>Q. 줌 라이브를 못 들으면 어떻게 하나요?</span>
+          <div class="faq-icon"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">강의 녹화본을 제공해 드립니다. 실시간 참여가 어려운 경우에도 녹화본을 통해 언제든지 수강하실 수 있습니다. 다만 실시간 Q&amp;A 및 피드백 참여를 위해 가능한 한 라이브 참여를 권장드립니다.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q" data-faq="1">
+          <span>Q. AI를 전혀 몰라도 수강 가능한가요?</span>
+          <div class="faq-icon"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">네, AI 완전 초보자도 가능합니다! 1주차부터 기초 개념을 함께 잡고 시작하기 때문에 AI를 전혀 사용해 보지 않으신 분들도 충분히 따라오실 수 있습니다. 실습 중심으로 진행되어 배운 것을 바로 적용할 수 있습니다.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q" data-faq="2">
+          <span>Q. 수강 후 어떤 성과를 기대할 수 있나요?</span>
+          <div class="faq-icon"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">3개월 수료 후에는 ① ChatGPT·Gemini·Notion·구글 워크스페이스를 업무에 즉시 활용할 수 있고 ② AI로 SNS 콘텐츠(블로그·영상·이미지)를 자체 제작할 수 있으며 ③ 반복 업무를 자동화하여 업무 생산성을 대폭 향상시킬 수 있습니다. ④ 실제 배포 가능한 웹 서비스를 직접 만들 수 있는 역량도 갖추게 됩니다.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q" data-faq="3">
+          <span>Q. 결제는 어떻게 하나요?</span>
+          <div class="faq-icon"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">계좌이체(기업은행 667-045456-04-010 거상스쿨(주)) 또는 카드 결제 모두 가능합니다. 결제 방법이나 수강 신청에 관한 자세한 문의는 권현임 교육팀장님(010-5795-8075)께 연락 주시면 친절하게 안내해 드립니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FINAL CTA ============================== -->
+<section id="cta-final">
+  <div class="cta-final-inner">
+    <h2>지금 바로 신청하고<br /><span>AI로 앞서 나가세요!</span></h2>
+    <p>슈퍼 얼리버드 기간이 곧 마감됩니다.<br />지금 신청하면 430,000원을 절약할 수 있습니다.</p>
+
+    <div class="countdown-box">
+      <div class="countdown-item">
+        <div class="countdown-num" id="cdDays">00</div>
+        <div class="countdown-label">일</div>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-item">
+        <div class="countdown-num" id="cdHours">00</div>
+        <div class="countdown-label">시간</div>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-item">
+        <div class="countdown-num" id="cdMins">00</div>
+        <div class="countdown-label">분</div>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-item">
+        <div class="countdown-num" id="cdSecs">00</div>
+        <div class="countdown-label">초</div>
+      </div>
+    </div>
+
+    <div class="cta-final-btns">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgve1kf7GsMZvTV6Txyqp1nnFdZSgBV5W4bQDrj-a9WkbZcg/viewform" target="_blank" class="btn-gold">
+        <i class="fa-solid fa-bolt"></i> 지금 신청하기
+      </a>
+    </div>
+    <div class="cta-tel">
+      <i class="fa-solid fa-phone"></i>
+      <a href="tel:01057958075" style="color:inherit;">권현임 교육팀장 · 010-5795-8075</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer>
+  <p><strong>거상스쿨(주)</strong> | AI 마케팅 스쿨 3개월 풀 패키지</p>
+  <p style="margin-top:8px;">문의: 권현임 교육팀장 <a href="tel:01057958075" style="color:var(--sky);">010-5795-8075</a> | 기업은행 667-045456-04-010</p>
+  <p style="margin-top:8px; font-size:0.78rem; color:rgba(255,255,255,0.35);">© 2026 거상스쿨. All rights reserved.</p>
+</footer>
+
+<!-- ============================== JAVASCRIPT ============================== -->
+<script src="script.js"></script>
+</body>
+</html>
