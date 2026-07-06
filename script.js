@@ -45,8 +45,8 @@ const revealObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 revealEls.forEach(el => revealObserver.observe(el));
 
-/* ---- Countdown Timer (2026-07-01 오전 12시 마감) ---- */
-const deadline = new Date('2026-07-01T00:00:00+09:00').getTime();
+/* ---- Countdown Timer (2026-07-09 오후 3시 마감) ---- */
+const deadline = new Date('2026-07-09T15:00:00+09:00').getTime();
 function updateCountdown() {
   const now = Date.now();
   const diff = deadline - now;
